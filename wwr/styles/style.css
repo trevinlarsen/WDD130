@@ -200,6 +200,70 @@ main section img{
     transform: scale(1.1);
 }
 
+.rivers-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+
+}
+
+/*SNAKE RIVER*/
+.rivers-snake{
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+}
+.snakeinfo{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-size: 25px;
+}
+
+
+/*LOCHSA*/
+.rivers-lochsa{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.lochsainfo{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-size: 25px;
+}
+
+/*SALMON*/
+.rivers-salmon{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.salmoninfo{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
