@@ -1,0 +1,75 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #cad2c5; /* Light tan background color */
+}
+
+header, footer {
+    background-color: #354f52; /* Dark background color for header and footer */
+    color: #cad2c5;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    z-index: 5;
+}
+
+#logo {
+    width: 450px; /* Adjust the width as needed */
+    float: left;
+    margin-right: 5px;
+    z-index: 1;
+}
+
+nav {
+    float: flex;
+    align-items: center;
+    z-index: 0;
+    padding: 10px; 
+}
+
+nav a {
+    text-decoration: none;
+    color: #cad2c5;
+    margin: 0 15px;
+}
+
+.image-container {
+    float: left;
+    margin-right: 200px; /* Adjust the margin for space between images and text */
+}
+
+.image-container img {
+    width: 500px; /* Adjust the width of the images as needed */
+    display: block;
+    margin-bottom: 100px; /* Remove default image spacing */
+}
+
+.text-content {
+    overflow: hidden; /* Clear the float to prevent layout issues */
+}
+
+main {
+    max-width: 1800px; /* Set the maximum width for the main content */
+    margin: 20px auto; /* Center the main content and add margin */
+    padding: 20px;
+    background-color: white; /* White background for the main content */
+}
+p   {
+    font-size: 18px;
+    line-height: 2;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Add media query for better responsiveness */
+@media (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+}
