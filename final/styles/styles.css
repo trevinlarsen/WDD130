@@ -1,4 +1,5 @@
 /* styles.css */
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -13,8 +14,11 @@ header, footer {
     padding: 10px;
     position: relative;
     z-index: 5;
+    font: "IM Fell French Canon SC";
 }
-
+h2{
+    color: #354f52;
+}
 #logo {
     width: 450px; /* Adjust the width as needed */
     float: left;
@@ -54,11 +58,13 @@ main {
     max-width: 1800px; /* Set the maximum width for the main content */
     margin: 20px auto; /* Center the main content and add margin */
     padding: 20px;
-    background-color: white; /* White background for the main content */
+    background-color: beige; /* White background for the main content */
 }
 p   {
+    font-family: Lato, Helvetica, sans-serif;
     font-size: 18px;
     line-height: 2;
+    color: #52796f;
 }
 
 footer {
