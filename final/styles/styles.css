@@ -16,6 +16,10 @@ header, footer {
     z-index: 5;
     font: "IM Fell French Canon SC";
 }
+footer a {
+    text-decoration: none; /* Remove underline from links */
+    color: #cad2c5; /* Set the default color of your footer links */
+}
 h2{
     color: #354f52;
 }
@@ -37,6 +41,9 @@ nav a {
     text-decoration: none;
     color: #cad2c5;
     margin: 0 15px;
+}
+a:hover {
+    color: grey; /* Set the color you want when hovering */
 }
 
 .image-container {
