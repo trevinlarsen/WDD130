@@ -94,8 +94,11 @@ footer {
   }
   
   /* Add a grey background color on mouse-over */
-.pagination a:hover:not(.active) {background-color: #ddd;}
+  .pagination a:hover:not(.active) {background-color: #ddd;}
 
+
+
+  
 /* Add media query for better responsiveness */
 @media (max-width: 600px) {
     main {
